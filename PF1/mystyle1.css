@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('image/header-bg.jpg');
+    background-size: cover;
+}
+
+body {
+    background-color: rgb(0, 158, 179);
+}
+
+#icon {
+    width: 150px;
+    border: solid white;
+    border-radius: 10%;
+    margin: 40px 10px -30px 30px;
+}
+
+#myname {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px black;
+}
+
+nav {
+    background-color: aquamarine;
+    border-radius: 10px 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: navy;
+    font-weight: bold;
+}
+
+.top {
+    width: 800px;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin-left: 210px;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 740px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.profile {
+    padding: 0 20px;
+    line-height: 35px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+    color: #666766;
+    padding: 10px 0;
+    font-size: 11px;
+}
